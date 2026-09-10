@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Автосервис GARAGE 24 — ремонт и обслуживание автомобилей. Диагностика, ТО, тормоза, ходовая и электрика." />
+  <meta name="theme-color" content="#0b0d10" />
+  <title>GARAGE 24 — автосервис в вашем городе</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Roboto+Mono:wght@500;600&display=swap" rel="stylesheet" />
+  <link rel="shortcut icon" href="/favicon-preview-180x180.ico" />>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="topline">
+    <div class="container topbar">
+      <span>Пн–Сб: 09:00–21:00</span>
+      <a href="tel:+79991234567">+7 (999) 123-45-67</a>
+    </div>
+  </div>
+
+  <header class="header" id="header">
+    <div class="container nav">
+      <a class="logo" href="#hero" aria-label="GARAGE 24">
+        <span class="logo-mark">G</span>
+        <span>GARAGE <b>24</b></span>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#services">Услуги</a>
+        <a href="#prices">Цены</a>
+        <a href="#works">Наши работы</a>
+        <a href="#about">О сервисе</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+
+      <a class="nav-phone" href="tel:+79991234567">+7 (999) 123-45-67</a>
+
+      <button class="burger" id="burger" aria-label="Открыть меню" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="hero-bg"></div>
+      <div class="container hero-inner">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span class="dot"></span> Автосервис полного цикла</div>
+          <h1>Ремонтируем.<br /><em>Объясняем.</em><br />Отвечаем за результат.</h1>
+          <p class="hero-text">
+            Диагностика, техническое обслуживание и ремонт автомобилей без лишних услуг и неожиданных доплат.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#booking">Записаться на сервис <span>↗</span></a>
+            <a class="btn btn-ghost" href="#services">Смотреть услуги</a>
+          </div>
+          <div class="hero-note">
+            <span class="check">✓</span>
+            Первичная диагностика — от 500 ₽
+          </div>
+        </div>
+
+        <div class="hero-card reveal delay-2">
+          <div class="card-tag">СЕЙЧАС В СЕРВИСЕ</div>
+          <div class="hero-car-placeholder">
+            <div class="car-shape">
+              <span class="car-wheel wheel-1"></span>
+              <span class="car-wheel wheel-2"></span>
+            </div>
+            <span class="placeholder-text">Фото автомобиля</span>
+          </div>
+          <div class="hero-card-bottom">
+            <div>
+              <small>Запись сегодня</small>
+              <strong>с 16:00</strong>
+            </div>
+            <a href="#booking" class="round-arrow" aria-label="Записаться">↗</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-strip">
+      <div class="container trust-grid">
+        <div class="trust-item"><strong>8+</strong><span>лет работаем</span></div>
+        <div class="trust-item"><strong>2 500+</strong><span>автомобилей обслужили</span></div>
+        <div class="trust-item"><strong>4.9/5</strong><span>средняя оценка</span></div>
+        <div class="trust-item"><strong>1 год</strong><span>гарантия на работы</span></div>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <div class="eyebrow">01 / УСЛУГИ</div>
+            <h2>Всё, что нужно<br /><em>вашему автомобилю.</em></h2>
+          </div>
+          <p>Работаем с легковыми автомобилями и кроссоверами. Сначала диагностируем — потом согласовываем ремонт.</p>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card reveal">
+            <div class="service-icon">01</div>
+            <h3>Диагностика</h3>
+            <p>Компьютерная диагностика, поиск неисправностей, проверка перед покупкой.</p>
+            <span class="price">от 500 ₽</span>
+          </article>
+
+          <article class="service-card reveal delay-1">
+            <div class="service-icon">02</div>
+            <h3>Техническое обслуживание</h3>
+            <p>Замена масла и фильтров, регламентные работы, обслуживание по пробегу.</p>
+            <span class="price">от 2 500 ₽</span>
+          </article>
+
+          <article class="service-card service-featured reveal delay-2">
+            <div class="service-icon">03</div>
+            <h3>Ходовая и тормоза</h3>
+            <p>Подвеска, амортизаторы, ступицы, колодки, диски и тормозные системы.</p>
+            <span class="price">от 1 500 ₽</span>
+          </article>
+
+          <article class="service-card reveal delay-3">
+            <div class="service-icon">04</div>
+            <h3>Двигатель</h3>
+            <p>Течь масла, свечи, ремни, охлаждение и комплексный ремонт двигателя.</p>
+            <span class="price">от 1 000 ₽</span>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-icon">05</div>
+            <h3>Автоэлектрика</h3>
+            <p>Поиск коротких замыканий, аккумулятор, стартер, генератор, освещение.</p>
+            <span class="price">от 800 ₽</span>
+          </article>
+
+          <article class="service-card reveal delay-1">
+            <div class="service-icon">06</div>
+            <h3>Кондиционер</h3>
+            <p>Диагностика системы, заправка, поиск утечек и ремонт климатической системы.</p>
+            <span class="price">от 1 800 ₽</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section prices-section" id="prices">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <div class="eyebrow">02 / ЦЕНЫ</div>
+            <h2>Понятная стоимость<br /><em>до начала работ.</em></h2>
+          </div>
+          <p>Финальная цена согласовывается с вами после диагностики.</p>
+        </div>
+
+        <div class="price-table reveal">
+          <div class="table-row table-head">
+            <span>Работа</span><span>Цена от</span>
+          </div>
+          <div class="table-row"><span>Замена моторного масла</span><strong>800 ₽</strong></div>
+          <div class="table-row"><span>Компьютерная диагностика</span><strong>500 ₽</strong></div>
+          <div class="table-row"><span>Замена тормозных колодок</span><strong>1 500 ₽</strong></div>
+          <div class="table-row"><span>Замена тормозных дисков + колодок</span><strong>3 500 ₽</strong></div>
+          <div class="table-row"><span>Замена стойки амортизатора</span><strong>2 000 ₽</strong></div>
+          <div class="table-row"><span>Развал-схождение</span><strong>1 800 ₽</strong></div>
+          <div class="table-row"><span>Заправка кондиционера</span><strong>1 800 ₽</strong></div>
+          <div class="table-row"><span>Замена аккумулятора</span><strong>от 500 ₽</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container about-grid">
+        <div class="about-visual reveal">
+          <div class="about-placeholder">
+            <span class="big-letter">24</span>
+            <span>ФОТО ЗОНЫ<br />СЕРВИСА</span>
+          </div>
+          <div class="about-stamp">GARAGE<br /><strong>24</strong></div>
+        </div>
+
+        <div class="about-copy reveal delay-1">
+          <div class="eyebrow">03 / О СЕРВИСЕ</div>
+          <h2>Сервис, куда<br /><em>возвращаются.</em></h2>
+          <p class="lead">
+            Мы не стремимся продать вам максимум работ. Наша задача — точно найти причину неисправности и устранить её с первого раза.
+          </p>
+          <div class="about-points">
+            <div><span>✓</span><p><strong>Прозрачная смета</strong><br />Согласовываем стоимость до ремонта.</p></div>
+            <div><span>✓</span><p><strong>Проверенные запчасти</strong><br />Подбираем варианты под ваш бюджет.</p></div>
+            <div><span>✓</span><p><strong>Гарантия 1 год</strong><br />На работы и установленные детали.</p></div>
+          </div>
+          <a class="text-link" href="#booking">Записаться на диагностику <span>→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section works-section" id="works">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <div class="eyebrow">04 / НАШИ РАБОТЫ</div>
+            <h2>До / после.<br /><em></em></h2>
+          </div>
+          <p>Несколько примеров работ. (Позже можно будет добавить фотографии, а пока — только описания)</p>
+        </div>
+
+        <div class="works-grid">
+          <button class="work-card work-1 reveal" data-title="Замена тормозной системы">
+            <span class="work-label">Тормоза</span>
+            <span class="work-title">Замена дисков<br />и колодок</span>
+            <span class="work-arrow">↗</span>
+          </button>
+          <button class="work-card work-2 reveal delay-1" data-title="Обслуживание двигателя">
+            <span class="work-label">Двигатель</span>
+            <span class="work-title">Плановое<br />ТО</span>
+            <span class="work-arrow">↗</span>
+          </button>
+          <button class="work-card work-3 reveal delay-2" data-title="Ремонт подвески">
+            <span class="work-label">Подвеска</span>
+            <span class="work-title">Восстановление<br />ходовой</span>
+            <span class="work-arrow">↗</span>
+          </button>
+          <button class="work-card work-4 reveal delay-3" data-title="Компьютерная диагностика">
+            <span class="work-label">Диагностика</span>
+            <span class="work-title">Поиск<br />неисправности</span>
+            <span class="work-arrow">↗</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reviews-section">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <div class="eyebrow">05 / ОТЗЫВЫ</div>
+            <h2>Говорят<br /><em>наши клиенты.</em></h2>
+          </div>
+          <div class="review-rating">★★★★★ <span>4.9 / 5</span></div>
+        </div>
+
+        <div class="reviews-grid">
+          <article class="review-card reveal">
+            <div class="stars">★★★★★</div>
+            <p>«Приехал с проблемой по подвеске. Всё показали на подъёмнике, объяснили варианты и сразу озвучили цену. Никаких сюрпризов в заказ-наряде.»</p>
+            <div class="review-author"><span class="avatar">АС</span><div><strong>Алексей С.</strong><small>Постоянный клиент</small></div></div>
+          </article>
+          <article class="review-card reveal delay-1">
+            <div class="stars">★★★★★</div>
+            <p>«Отдавал машину на ТО перед дальней поездкой. Проверили даже то, о чём я не просил, нашли уставший аккумулятор. Очень внимательное отношение.»</p>
+            <div class="review-author"><span class="avatar">МК</span><div><strong>Мария К.</strong><small>Hyundai Tucson</small></div></div>
+          </article>
+          <article class="review-card reveal delay-2">
+            <div class="stars">★★★★★</div>
+            <p>«Наконец-то сервис, где не пытаются напугать клиента. Нужная работа — сделали, ненужная — сказали, что пока можно не трогать.»</p>
+            <div class="review-author"><span class="avatar">ДР</span><div><strong>Дмитрий Р.</strong><small>Toyota Camry</small></div></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="booking" id="booking">
+      <div class="container booking-grid">
+        <div class="booking-copy reveal">
+          <div class="eyebrow">06 / ЗАПИСЬ</div>
+          <h2>Есть вопрос<br /><em>по автомобилю?</em></h2>
+          <p>Оставьте контакты. Перезвоним, уточним симптомы и подберём удобное время.</p>
+          <div class="booking-contact">
+            <a href="tel:+79991234567">+7 (999) 123-45-67</a>
+            <a href="mailto:hello@garage24.ru">hello@garage24.ru</a>
+          </div>
+        </div>
+
+        <form class="booking-form reveal delay-1" id="bookingForm">
+          <label>
+            <span>Ваше имя</span>
+            <input type="text" name="name" placeholder="Как к вам обращаться?" required />
+          </label>
+          <label>
+            <span>Телефон</span>
+            <input type="tel" name="phone" placeholder="+7 (___) ___-__-__" required />
+          </label>
+          <label>
+            <span>Что нужно сделать?</span>
+            <select name="service">
+              <option value="Диагностика">Диагностика</option>
+              <option value="ТО">Техническое обслуживание</option>
+              <option value="Ходовая и тормоза">Ходовая и тормоза</option>
+              <option value="Двигатель">Двигатель</option>
+              <option value="Автоэлектрика">Автоэлектрика</option>
+              <option value="Кондиционер">Кондиционер</option>
+              <option value="Другое">Другое</option>
+            </select>
+          </label>
+          <button class="btn btn-primary btn-full" type="submit">Отправить заявку <span>↗</span></button>
+          <p class="form-note">Нажимая кнопку, вы соглашаетесь с обработкой персональных данных.</p>
+        </form>
+      </div>
+    </section>
+
+    <section class="map-section" id="contacts">
+      <div class="container map-inner">
+        <div class="map-placeholder">
+          <div class="map-grid-lines"></div>
+          <div class="map-pin">+</div>
+          <div class="map-label">
+            <strong>GARAGE 24</strong>
+            <span>ул. Промышленная, 18</span>
+          </div>
+        </div>
+
+        <div class="contact-card reveal">
+          <div class="eyebrow">07 / КОНТАКТЫ</div>
+          <h2>Заезжайте<br /><em>в гости.</em></h2>
+          <div class="contact-row"><span>Адрес</span><strong>г. Ваш город, ул. Промышленная, 18</strong></div>
+          <div class="contact-row"><span>Телефон</span><a href="tel:+79991234567"><strong>+7 (999) 123-45-67</strong></a></div>
+          <div class="contact-row"><span>Часы работы</span><strong>Пн–Сб · 09:00–21:00<br />Вс · выходной</strong></div>
+          <a class="btn btn-dark" href="https://yandex.ru/maps/" target="_blank" rel="noopener">Построить маршрут ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-top">
+      <a class="logo" href="#hero"><span class="logo-mark">G</span><span>GARAGE <b>24</b></span></a>
+      <p>Надёжный автосервис для тех,<br />кто ценит свой автомобиль.</p>
+      <div class="socials">
+        <a href="#" aria-label="VK">VK</a>
+        <a href="#" aria-label="Telegram">TG</a>
+        <a href="#" aria-label="WhatsApp">WA</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© <span id="year"></span> GARAGE 24</span>
+      <span>Сайт-визитка • Демонстрационный проект</span>
+    </div>
+  </footer>
+
+  <div class="modal" id="workModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-dialog">
+      <button class="modal-close" data-close-modal aria-label="Закрыть">×</button>
+      <div class="modal-image" id="modalImage"></div>
+      <div class="modal-caption" id="modalCaption"></div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast">Заявка принята. Мы скоро перезвоним!</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
